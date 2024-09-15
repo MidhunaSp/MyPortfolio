@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Portfolio!</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet"href="style.css">
+
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section id="home">
+    <div class="main">
+      <h1 class="headings">I'm<br> Midhuna</h1>
+     <h4>For more info: midhunavarshini192@gmail.com</h4> 
+      <button class="btn">
+        Hire Me
+      </button>
+    </div>
+  </section>
+
+
+  <section id="about">
+      <h1 class="headings">ABOUT ME</h1>
+      <div id="pic">
+         <img src="imgggggg.jpg"alt="">
+         <div id="intro">
+            <h2>MIDHUNA</h2>
+            <p>I'm a student of B.Tech IT. I'm a beginner in web development.Currently pursuing my bachelor’s degree in Information Technology, I’ve immersed myself in the world of web development. From HTML and CSS to JavaScript, I’m eager to learn and apply these skills. I love developing websites and web apps. I'm a good listener and a good communicator. I'm a  good problem solver.Compassionate, dedicated, and hardworking.Looking to utilize my technology and leadership skills in an esteemed organization. My journey in the field of IT has been marked by curiosity, dedication, and a desire to explore the intricate workings of the mind. I’ve delved into programming languages, algorithms, and system architectures. I’ve also gained experience in web development, database management, and software development. I’m eager to apply my knowledge and skills to contribute to the success of the organization. I’m excited to take on new challenges and contribute my skills to the organization. 
+
+            🚀 Future Aspirations:
+            Full-Stack Mastery: I aim to bridge the gap between front-end magic and back-end logic. Understanding databases, APIs, and server-side scripting excites me.
+            User-Centric Design: Crafting intuitive interfaces that enhance user experiences is my ultimate goal.
+            Continuous Learning: Web development evolves rapidly, and I’m committed to staying updated. Online courses, tech blogs, and conferences are my allies.</p>
+         </div>
+      </div>
+  </section>
+
+
+  <section id="portfolio">
+      <h1 class="headings">PORTFOLIO</h1>
+      
+    <div class="projects">
+        <div class="project-card">
+            <img src="imgg2.jpeg" alt="Project 1">
+            <h3><a href="https://github.com/MidhunaSp/HangmanGame" target="_blank">Mini Project</a></h3>
+            <p>Developed a classic word-guessing game where players try to guess the hidden word by suggesting letters, with a limited number of attempts before the game ends.</p>
+        </div>
+        <div class="project-card">
+            <img src="net.jpg" alt="Netflix Clone"(Internship)>
+            <h3><br><a href="https://github.com/MidhunaSp/Netflix" target="_blank">Netflix Clone(Internship)</a></h3>
+            <p>I Developed a netflix clone featuring user authentication, content browsing, and media playback.
+            <br>Technologies used: HTML,CSS,JS.</p>
+        </div>
+        <div class="project-card">
+            <img src="bank.jpeg" alt="Project 3">
+            <h3><a href="https://github.com/MidhunaSp/CodeAlpha_BankingApplication" target="_blank">Banking Application(Internship)</a></h3>
+            <p>I Created a banking application,it's asecure and user-friendly Java-based system for managing accounts, transactions, and customer data.
+            </p>
+        </div>
+    </div>
+
+    <div class="resume-github">
+        <div class="resume">
+            <h2>My Resume</h2>
+            <p>Download my resume to learn more about my experience and skills:</p><br>
+            <a href="Resume.pdf" download class="btn">Download Resume</a>
+        </div><br>
+        <div class="github-link"><br>
+            <h2>Find Me on GitHub</h2>
+          <p> Visit my GitHub profile to see the code and projects I've been working on</p><br><br>
+            <a href="https://github.com/MidhunaSp" target="_blank" class="btn">Visit My GitHub</a>
+        </div>
+      <div class="github-link"><br>
+          <h2>Find Me on LinkedIn</h2>
+        <p> Connect with me on LinkedIn and explore my professional background and network with me.</p><br><br>
+          <a href="https://www.linkedin.com/in/midhuna-varshini-s-p-62b779253/" target="_blank" class="btn">Visit My LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h1 class="headings">SERVICES</h1>
+    <div class="row">
+      <div class="box">
+        <img src="png4.png" alt="">
+        <h1 class="headings">Web Design</h1>
+        <p>I design websites and web applications using HTML, CSS, and JavaScript. I also create responsive websites that adapt to different screen sizes and devices.  </p>
+      </div>
+      <div class="box">
+        <img src="png5.png" alt="">
+        <h1 class="headings">UI/UX Design</h1>
+        <p>I design user interfaces and user experiences for web and mobile applications. I use design tools like Figma to create visually appealing and intuitive interfaces. I also use mockups to understand the user flow and design the interface. </p>
+      </div>
+      <div class="box">
+        <img src="png6.png" alt="">
+        <h1 class="headings">Full Stack</h1>
+        <p> I showcase my full-stack development skills, demonstrating expertise in both front-end and back-end technologies. I handle everything from crafting engaging user interfaces to managing server-side logic and databases, ensuring cohesive and functional web applications. My proficiency includes HTML, CSS, JavaScript. </p>
+      </div>
+    </div>  
+  </section>
+  <section id="contact">
+      <h1 class="headings">CONTACT</h1>
+      <form action="mailto:midhunavarshini192@gmail.com" method="post" enctype="text/html" class="form">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" class="input" placeholder="Enter Your Name" ><br>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" class="input" placeholder="Enter Your Email" required><br>
+          <label for="msg">Message:</label>
+          <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message" required></textarea><br>
+          <input type="submit" value="SEND" id="send">
+      </form>
+  </section>
+
+
+</body>
+
+</html>
